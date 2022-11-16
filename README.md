@@ -42,6 +42,22 @@ In the project directory, you can run:
 
 <br>
 
+### Folder Structure
+
+1. These are the folders relevant for the project:
+
+```bash
+.
+├── src
+  ├── components
+    ├── landing_page
+  ├── App.test.js
+├── README.md
+
+```
+
+<br >
+
 ### Contribution Guidelines
 
 - Do not push directly to main branch
