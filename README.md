@@ -73,3 +73,25 @@ In the project directory, you can run:
   }
 }
 ```
+
+<br />
+
+## 🤝 Contribute
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/workshopapps/applyforme.web.git/issues)
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Zuri HNG
+- Hat tip to anyone whose code was used
+- Inspiration
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
