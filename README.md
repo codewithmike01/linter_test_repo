@@ -44,6 +44,8 @@ In the project directory, you can run:
 
 ### Contribution Guidelines
 
+- Do not push directly to main branch
+- Create your working branch and give it a descriptive name like: feature/{feature-name}
 - Make micro commits, so the code reviewer can see step by step your changes to the codebase.
 - Make sure your PR sumarry is descriptive, in other to make the code reviewer understand what changes you have made.
 - Only make changes to section of the codebase assigned to you.
