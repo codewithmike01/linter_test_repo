@@ -68,6 +68,18 @@ This GitHub Action is going to run [ESLint](https://eslint.org/) and [Stylelint]
 
 [ESLint](https://eslint.org/) is a tool for identifying and reporting on patterns found in ECMAScript/JavaScript code, with the goal of making code more consistent and avoiding bugs.
 
+**Notes**
+
+- When you open your first pull request you might see the result of the GitHub Actions with errors:
+
+<img width="551" alt="gitaction" src="https://user-images.githubusercontent.com/58771507/202259787-785c13e5-b11a-4a62-ad9e-4668b7b1b40e.png">
+
+- Do not panic, you can Click on the Details link to see the full output and the errors that need to be fixed:
+
+ <img width="551" alt="gitaction" src="https://user-images.githubusercontent.com/58771507/202260184-0dff49e5-3b5f-44bb-81e8-0439367b0c08.png">
+
+- Go your terminal and run the Linter auto-fix command to fix this errors, and you can push the fixed code back to github.
+
 #### Linter auto-fix command
 
 This command is to be run, on the root of your directory of your project in your terminal. to fix linter errors.
