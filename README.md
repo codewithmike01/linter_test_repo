@@ -55,3 +55,19 @@ In the project directory, you can run:
   - refactor: refactoring production code
   - test: adding tests, refactoring test
   - chore: updating build tasks, package manager configs, etc; no production code change
+
+### Expected endpoints and behaviors
+
+`GET '/{endpoint-name}'`
+
+- Fetches a dictionary of {endpoint-name} in which the keys are the ids and the value is the corresponding string of the {endpoint name}
+- Request Arguments: None
+- Returns: An object with...
+
+```json
+{
+  "example": {
+    "exampleName": "Science"
+  }
+}
+```
