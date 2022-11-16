@@ -58,6 +58,38 @@ In the project directory, you can run:
   - test: adding tests, refactoring test
   - chore: updating build tasks, package manager configs, etc; no production code change
 
+### GitHub Actions Enforcement
+
+This Action enforcement uses lint: which is process of automatically check your source code for programatic and stylistic errors. Further implementation was done using GitHub Action so as to automatically check your PR (Pull Request) for styling and programatical errors, which will enable us to have maintain coding standards and clean codebase by catching such error as quick as possible.
+
+This GitHub Action is going to run [ESLint](https://eslint.org/) and [Stylelint](https://stylelint.io/) to help you find style and javascript issues, and fix them.
+
+[Stylelint](https://stylelint.io/) is a linter for your stylesheets that helps you avoid errors and enforce conventions.
+
+[ESLint](https://eslint.org/) is a tool for identifying and reporting on patterns found in ECMAScript/JavaScript code, with the goal of making code more consistent and avoiding bugs.
+
+#### Linter auto-fix command
+
+This command is to be run, on the root of your directory of your project in your terminal. to fix linter errors.
+
+##### ESLint
+
+- Run
+
+```
+npm run auto-fix-js
+```
+
+##### Stylelint
+
+- Run
+
+```
+npm run auto-fix-style
+```
+
+<br />
+
 ### Expected endpoints and behaviors
 
 `GET '/{endpoint-name}'`
