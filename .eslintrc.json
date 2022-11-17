@@ -1,4 +1,4 @@
-module.exports = {
+{
     "env": {
         "browser": true,
         "es2021": true,
@@ -36,7 +36,7 @@ module.exports = {
     },
     "overrides": [
         {
-            files: [
+            "files": [
                 "**/*.test.js",
                 "**/*.test.jsx",
                 "**/*.test.tsx",
@@ -44,8 +44,8 @@ module.exports = {
                 "**/*.spec.jsx",
                 "**/*.spec.tsx"
             ],
-            env: {
-                jest: true
+            "env": {
+                "jest": true
             }
         }
     ],
@@ -54,4 +54,4 @@ module.exports = {
             "version": "detect"
         }
     }
-};
+}
