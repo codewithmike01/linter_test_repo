@@ -50,6 +50,7 @@ In the project directory, you can run:
 
 ```bash
 .
+├── docs
 ├── src
   ├── components
     ├── landing_page
