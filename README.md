@@ -52,11 +52,11 @@ In the project directory, you can run:
 .
 ├── docs
 ├── src
-  ├── components
-  ├── pages
   ├── assets
     ├── fonts
     ├── images
+  ├── components
+  ├── pages
   ├── App.js
 ├── README.md
 
