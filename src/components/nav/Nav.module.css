@@ -8,14 +8,43 @@
     width: 90%;
     max-width: 1400px;
     margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    justify-content: space-between;
 }
 
 .logo {
-    width: 104px;
-    height: 54px;
+    width: 100px;
+    height: 50px;
 }
 
 .logo__img {
     width: 100%;
     height: 100%;
+}
+
+.nav_links {
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.nav_links li {
+    list-style-type: none;
+}
+
+.nav_links li:hover {
+    cursor: pointer;
+}
+
+.nav_links li a {
+    text-decoration: none;
+    color: #52515b;
+}
+
+.btn_container {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
 }
