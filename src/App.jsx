@@ -1,9 +1,8 @@
 function App() {
     return (
         <div>
-            <p> Hello </p>
-
-            <p> Hello </p>
+            <h1> Hello </h1>
+            <h2> Hello </h2>
         </div>
     );
 }
