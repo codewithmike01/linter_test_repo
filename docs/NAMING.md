@@ -20,10 +20,10 @@ let followCount = 23;
 
 ```javascript
 // Bad
-let b = 'john';
+let b = "john";
 
 //Good
-let firstName = 'john';
+let firstName = "john";
 ```
 
 - Constant varibles should be written in `Uppercase` for one `word` and `UPPER_SNAKE_CASE`
@@ -76,14 +76,14 @@ function getName() {
 //Bad
 class dog_movie {
   constructor(dogName) {
-    this.dogName = 'freddo';
+    this.dogName = "freddo";
   }
 }
 
 //Good
 class DogMovie {
   constructor(dogName) {
-    this.dogName = 'freddo';
+    this.dogName = "freddo";
   }
 }
 ```
@@ -202,7 +202,7 @@ landing
 
 ##### Javascript files
 
-- Make use of `pascal case` naming convection
+- Make use of `pascal case` naming convection and javascript extension must be `jsx`
 
 ```doc
 
@@ -210,10 +210,10 @@ JAVASCRIPT FILE
 ================
 
 <!-- Bad -->
-home_page.js
-landing.js
+home_page.jsx
+landing.jsx
 
 <!-- Good -->
-Landing.js
-HomePage.js
+Landing.jsx
+HomePage.jsx
 ```
