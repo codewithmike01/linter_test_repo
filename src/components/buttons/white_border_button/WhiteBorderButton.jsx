@@ -1,8 +1,7 @@
 import React from "react";
-import classes from "./LightButton.module.css";
+import classes from "./WhiteBorderButton.module.css";
 import mainStyle from "../Button.module.css";
-
-const LightButton = ({ text, width, func }) => {
+const WhiteBorderButton = ({ text, width, func }) => {
     return (
         <button
             style={{ width: `${width}px` }}
@@ -14,4 +13,4 @@ const LightButton = ({ text, width, func }) => {
     );
 };
 
-export default LightButton;
+export default WhiteBorderButton;
