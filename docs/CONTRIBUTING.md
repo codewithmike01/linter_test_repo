@@ -14,6 +14,8 @@
   - test: adding tests, refactoring test
   - chore: updating build tasks, package manager configs, etc; no production code change
 
+**NOTE**: Also take a look at our [naming convections](./NAMINGCONVECTION.md) in other to follow our codebase standards.
+
 ### GitHub Actions Enforcement
 
 This Action enforcement uses lint: which is process of automatically check your source code for programatic and stylistic errors. Further implementation was done using GitHub Action so as to automatically check your PR (Pull Request) for styling and programatical errors, which will enable us to have maintain coding standards and clean codebase by catching such error as quick as possible.
