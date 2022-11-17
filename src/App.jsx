@@ -1,4 +1,4 @@
-function app() {
+function App() {
     return (
         <div className="App">
             <p> Hello </p>
@@ -10,4 +10,4 @@ function app() {
     );
 }
 
-export default app;
+export default App;
