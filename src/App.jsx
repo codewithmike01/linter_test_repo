@@ -3,7 +3,6 @@ function App() {
         <div className="App">
             <p> Hello </p>
         </div>
-        </div>
     );
 }
 
