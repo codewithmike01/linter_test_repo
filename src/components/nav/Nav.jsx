@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { FiMenu } from "react-icons/fi";
 import classes from "./Nav.module.css";
 import Logo from "../../assets/images/nav_logo.svg";
 import BlueButton from "../buttons/blue_background/BlueButton";
@@ -41,6 +42,8 @@ const Nav = () => {
                     <LightButton text="Sign in" width="127" />
                     <BlueButton text="Get started" width="156" />
                 </div>
+
+                <FiMenu className={classes.menu} />
             </nav>
         </section>
     );
