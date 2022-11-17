@@ -110,9 +110,64 @@ function DogMovie() {
 }
 ```
 
+<br>
+
+#### Styling
+
+##### Naming Rules
+
+`block-name__elem-name_mod-name_mod-val`
+
+- Names are written in lowercase Latin letters.
+
+- Words are separated by a hyphen (-).
+
+- The `block name` defines the namespace for its elements and modifiers.
+
+- The `element` name is separated from the block name by a double underscore (\_\_).
+
+- The `modifier` name is separated from the block or element name by a single underscore (\_).
+
+- The `modifier value` is separated from the modifier name by a single underscore (\_).
+
+```html
+<!-- `logo` block -->
+<div class="logo logo_theme_islands">
+  <img src="URL" alt="logo" class="logo__img" />
+</div>
+
+<!-- `user` block-->
+<div class="user user_theme_islands">
+  <img src="URL" alt="user-logo" class="user__img" />
+  ...
+</div>
+```
+
+```css
+.logo {
+} /* CSS class for the `logo` block */
+
+.logo__img {
+} /* CSS class for the `logo__img` element */
+
+.logo_theme_islands {
+} /* CSS class for the `logo_theme_islands` modifier */
+
+.user {
+} /* CSS class for the `user` block */
+
+.user__img {
+} /* CSS class for the `user__img` element */
+
+.user_theme_islands {
+} /* CSS class for the `user_theme_islands` modifier */
+```
+
+<br>
+
 #### Files & Folders
 
-##### Images, Folders
+##### Images
 
 - Make use of `snake case` naming convection
 
@@ -126,8 +181,13 @@ HomeImage.png
 <!-- Good -->
 flower.jpg
 home_image.png
+```
 
+##### Folders
 
+- Make use of `kebab` naming convection
+
+```doc
 FOLDER
 ===========
 
@@ -136,9 +196,8 @@ HomePage
 Landing
 
 <!-- Good -->
-home_page
+home-page
 landing
-
 ```
 
 ##### Javascript files
@@ -157,5 +216,4 @@ landing.js
 <!-- Good -->
 Landing.js
 HomePage.js
-
 ```
