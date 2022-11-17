@@ -1,0 +1,21 @@
+.nav_container {
+    width: 100vw;
+    padding-top: 1.7rem;
+    padding-bottom: 2rem;
+}
+
+.nav_container__wrapper {
+    width: 90%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 104px;
+    height: 54px;
+}
+
+.logo__img {
+    width: 100%;
+    height: 100%;
+}
