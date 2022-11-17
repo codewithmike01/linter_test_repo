@@ -1,13 +1,11 @@
 function App() {
     return (
-        <div className="App">
+        <div>
             <p> Hello </p>
 
-            <p> Hello </p>
-            <p> Hello </p>
             <p> Hello </p>
         </div>
     );
 }
 
-export default App;
+export default app;
