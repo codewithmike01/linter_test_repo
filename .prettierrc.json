@@ -11,7 +11,7 @@
     "quoteProps": "preserve",
     "overrides": [
         {
-            "files": "*.{js,jsx,tsx,ts,scss,css,json,html}",
+            "files": "*.{jsx,js,tsx,ts,scss,css,json,html}",
             "options": {
                 "tabWidth": 4
             }
