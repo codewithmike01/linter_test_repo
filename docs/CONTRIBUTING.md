@@ -14,7 +14,7 @@
   - test: adding tests, refactoring test
   - chore: updating build tasks, package manager configs, etc; no production code change
 
-**NOTE**: Also take a look at our [naming convections](./NAMINGCONVECTION.md) in other to follow our codebase standards.
+**NOTE**: Also take a look at our [Naming convections](./NAMINGCONVECTION.md) in other to follow our codebase standards.
 
 ### GitHub Actions Enforcement
 
