@@ -14,13 +14,13 @@
   - test: adding tests, refactoring test
   - chore: updating build tasks, package manager configs, etc; no production code change
 
+**NOTE**: Also take a look at our [Naming convections](./NAMINGCONVECTION.md) in other to follow our codebase standards.
+
 ### GitHub Actions Enforcement
 
 This Action enforcement uses lint: which is process of automatically check your source code for programatic and stylistic errors. Further implementation was done using GitHub Action so as to automatically check your PR (Pull Request) for styling and programatical errors, which will enable us to have maintain coding standards and clean codebase by catching such error as quick as possible.
 
-This GitHub Action is going to run [ESLint](https://eslint.org/) and [Stylelint](https://stylelint.io/) to help you find style and javascript issues, and fix them.
-
-[Stylelint](https://stylelint.io/) is a linter for your stylesheets that helps you avoid errors and enforce conventions.
+This GitHub Action is going to run [ESLint](https://eslint.org/) javascript issues.
 
 [ESLint](https://eslint.org/) is a tool for identifying and reporting on patterns found in ECMAScript/JavaScript code, with the goal of making code more consistent and avoiding bugs.
 
@@ -36,6 +36,16 @@ This GitHub Action is going to run [ESLint](https://eslint.org/) and [Stylelint]
 
 - Go your terminal and run the Linter auto-fix command to fix this errors, and you can push the fixed code back to github.
 
+#### Set-up linters in your local env
+
+##### ESLint
+
+- Run
+
+```cmd
+npm install --save-dev eslint@7.x eslint-config-airbnb@18.x eslint-plugin-import@2.x eslint-plugin-jsx-a11y@6.x eslint-plugin-react@7.x eslint-plugin-react-hooks@4.x @babel/eslint-parser@7.x @babel/core@7.x  @babel/plugin-syntax-jsx@7.x  @babel/preset-react@7.x @babel/preset-react@7.x
+```
+
 #### Linter auto-fix command
 
 This command is to be run, on the root of your directory of your project in your terminal. to fix linter errors.
@@ -46,14 +56,6 @@ This command is to be run, on the root of your directory of your project in your
 
 ```
 npm run auto-fix-js
-```
-
-##### Stylelint
-
-- Run
-
-```
-npm run auto-fix-style
 ```
 
 <br />

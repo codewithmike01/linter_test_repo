@@ -50,10 +50,14 @@ In the project directory, you can run:
 
 ```bash
 .
+├── docs
 ├── src
   ├── components
-    ├── landing_page
-  ├── App.test.js
+  ├── pages
+  ├── assets
+    ├── fonts
+    ├── images
+  ├── App.js
 ├── README.md
 
 ```
