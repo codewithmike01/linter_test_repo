@@ -1,0 +1,7 @@
+#Workflow files to ignore
+.github
+.gitignore
+.prettierignore
+.eslintignore
+**/node_modules/
+**/dist/
