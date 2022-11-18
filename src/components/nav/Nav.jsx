@@ -11,30 +11,32 @@ const Nav = () => {
         <section className={classes.nav_container}>
             <nav className={classes.nav_container__wrapper}>
                 <div className={classes.logo}>
-                    <img
-                        src={Logo}
-                        alt="Apply for me Logo"
-                        className={classes.logo__img}
-                    />
+                    <Link to="/">
+                        <img
+                            src={Logo}
+                            alt="Apply for me Logo"
+                            className={classes.logo__img}
+                        />
+                    </Link>
                 </div>
 
                 <ul className={classes.nav_links}>
                     <li>
-                        <Link to="none">About us</Link>
+                        <Link to="/about">About us</Link>
                     </li>
 
                     <li>
-                        <Link to="none">Pricing plan</Link>
+                        <Link to="/pricing">Pricing plan</Link>
                     </li>
 
                     <li>
-                        <Link to="none">Blog</Link>
+                        <Link to="/blog/2">Blog</Link>
                     </li>
                     <li>
-                        <Link to="none">FAQs</Link>
+                        <Link to="/faqs">FAQs</Link>
                     </li>
                     <li>
-                        <Link to="none">Contact us</Link>
+                        <Link to="/contact">Contact us</Link>
                     </li>
                 </ul>
 

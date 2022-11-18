@@ -10,6 +10,7 @@ import Privacy from "./pages/privacy/Privacy";
 import Cookies from "./pages/cookies/Cookies";
 import Career from "./pages/career/Career";
 import Blog from "./pages/blog/Blog";
+import PricingPlan from "./pages/pricing_plan/PricingPlan";
 
 function App() {
     return (
@@ -25,7 +26,8 @@ function App() {
                 <Route exact path="/privacy" element={<Privacy />} />
                 <Route exact path="/cookies" element={<Cookies />} />
                 <Route exact path="/career" element={<Career />} />
-                <Route exact path="/blog:id" element={<Blog />} />
+                <Route exact path="/pricing" element={<PricingPlan />} />
+                <Route exact path="/blog/:id" element={<Blog />} />
             </Routes>
             <Footer />
         </>
