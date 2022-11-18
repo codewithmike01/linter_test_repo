@@ -65,6 +65,11 @@
     list-style-type: none;
 }
 
+.links li a {
+    text-decoration: none;
+    color: #fff;
+}
+
 .links li:nth-child(1) {
     font-weight: 700;
     font-size: 20px;

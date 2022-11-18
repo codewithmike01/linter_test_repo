@@ -50,18 +50,34 @@ const Footer = () => {
 
                 <ul className={classes.links}>
                     <li>Company</li>
-                    <li>About Us</li>
-                    <li>Blog</li>
-                    <li>Privacy Policy</li>
-                    <li>Terms and conditions</li>
+                    <li>
+                        <Link to="/about"> About Us</Link>
+                    </li>
+                    <li>
+                        <Link to="/blog/3"> Blog</Link>
+                    </li>
+                    <li>
+                        <Link to="/privacy"> Privacy Policy</Link>
+                    </li>
+                    <li>
+                        <Link to="/t&c">Terms and conditions</Link>
+                    </li>
                 </ul>
 
                 <ul className={classes.links}>
                     <li>Help</li>
-                    <li>Contact Us</li>
-                    <li>FAQs</li>
-                    <li>Pricing</li>
-                    <li>Careers</li>
+                    <li>
+                        <Link to="/contact"> Contact Us</Link>
+                    </li>
+                    <li>
+                        <Link to="/faqs">FAQs</Link>
+                    </li>
+                    <li>
+                        <Link to="/pricing"> Pricing</Link>
+                    </li>
+                    <li>
+                        <Link to="/career"> Careers</Link>
+                    </li>
                 </ul>
             </div>
 
@@ -71,10 +87,10 @@ const Footer = () => {
 
                     <ul>
                         <li>
-                            <Link to="none">Cookies Policy</Link>
+                            <Link to="/cookies">Cookies Policy</Link>
                         </li>
                         <li>
-                            <Link to="none">Terms of Service</Link>
+                            <Link to="/t&c">Terms of Service</Link>
                         </li>
                         <li>
                             <Link to="none">Cookies Settings</Link>
